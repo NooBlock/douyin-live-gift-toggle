@@ -1,0 +1,10 @@
+# Local credentials must never be committed.
+PAT.txt
+github PAT/
+greasyfork-profile/
+greasyfork-chrome.pid
+
+# Local scratch files.
+*.log
+*.tmp
+.DS_Store
