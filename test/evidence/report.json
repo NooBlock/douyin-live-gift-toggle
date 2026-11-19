@@ -1,0 +1,747 @@
+{
+  "url": "https://live.douyin.com/927864631944",
+  "elapsed_seconds": 54.65,
+  "passed": 30,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "normal: 页面加载后按钮存在且只有一个",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "normal: 样式只注入一次",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "check": "normal: 默认显示礼物栏",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "block",
+          "rect": [
+            0,
+            912,
+            1264,
+            88
+          ]
+        },
+        "gifts": {
+          "display": "flex",
+          "rect": [
+            8,
+            904,
+            1110,
+            96
+          ]
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "off": "false",
+          "pressed": "false",
+          "label": "隐藏抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ],
+          "width": 30,
+          "opacity": 0.58,
+          "background": "rgba(0, 0, 0, 0)",
+          "labelOpacity": 0,
+          "labelWidth": 0
+        },
+        "fullscreen": null,
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "normal: 默认只显示 logo、插件名隐藏",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "normal: 默认半透明且无底色",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "normal: aria 动作为隐藏",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "hover: 展开显示插件名",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          118,
+          30
+        ],
+        "width": 118,
+        "opacity": 1,
+        "background": "rgba(18, 18, 22, 0.9)",
+        "labelOpacity": 1,
+        "labelWidth": 61
+      }
+    },
+    {
+      "check": "hover: 出现底色并恢复不透明",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          118,
+          30
+        ],
+        "width": 118,
+        "opacity": 1,
+        "background": "rgba(18, 18, 22, 0.9)",
+        "labelOpacity": 1,
+        "labelWidth": 61
+      }
+    },
+    {
+      "check": "hover 结束: 收回纯 logo",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "click: 礼物栏被隐藏",
+      "ok": true,
+      "detail": {
+        "display": "none",
+        "rect": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "check": "click: aria 变为显示、状态正确",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          118,
+          30
+        ],
+        "width": 118,
+        "opacity": 1,
+        "background": "rgba(18, 18, 22, 0.9)",
+        "labelOpacity": 1,
+        "labelWidth": 61
+      }
+    },
+    {
+      "check": "click: 按钮仍在视口内",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          118,
+          30
+        ],
+        "width": 118,
+        "opacity": 1,
+        "background": "rgba(18, 18, 22, 0.9)",
+        "labelOpacity": 1,
+        "labelWidth": 61
+      }
+    },
+    {
+      "check": "click: 播放器控制层未被误隐藏",
+      "ok": true,
+      "detail": {
+        "display": "block",
+        "h": 950,
+        "w": 1264
+      }
+    },
+    {
+      "check": "reload: 当前标签页保持隐藏",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "gifts": null,
+        "button": {
+          "text": "礼物栏开关",
+          "off": "true",
+          "pressed": "true",
+          "label": "显示抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ],
+          "width": 30,
+          "opacity": 0.58,
+          "background": "rgba(0, 0, 0, 0)",
+          "labelOpacity": 0,
+          "labelWidth": 0
+        },
+        "fullscreen": null,
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "reload: 按钮状态保持显示动作",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "restore: 点击后礼物栏恢复",
+      "ok": true,
+      "detail": {
+        "display": "block",
+        "rect": [
+          0,
+          912,
+          1264,
+          88
+        ]
+      }
+    },
+    {
+      "check": "native fullscreen: 找到播放器全屏按钮",
+      "ok": true,
+      "detail": {
+        "x": 1228,
+        "y": 880,
+        "w": 40,
+        "h": 32
+      }
+    },
+    {
+      "check": "native fullscreen: 浏览器进入全屏",
+      "ok": true,
+      "detail": {
+        "tag": "BODY",
+        "id": "",
+        "cls": "xgplayer-fullscreen-parent"
+      }
+    },
+    {
+      "check": "native fullscreen: 按钮仍可见",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "native fullscreen: 按钮在全屏元素内或 body 内",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "native fullscreen: 切换后礼物栏隐藏",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "gifts": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "off": "true",
+          "pressed": "true",
+          "label": "显示抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ],
+          "width": 118,
+          "opacity": 1,
+          "background": "rgba(18, 18, 22, 0.9)",
+          "labelOpacity": 1,
+          "labelWidth": 61
+        },
+        "fullscreen": {
+          "tag": "BODY",
+          "id": "",
+          "cls": "xgplayer-fullscreen-parent"
+        },
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "native fullscreen: 按钮仍可见",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          118,
+          30
+        ],
+        "width": 118,
+        "opacity": 1,
+        "background": "rgba(18, 18, 22, 0.9)",
+        "labelOpacity": 1,
+        "labelWidth": 61
+      }
+    },
+    {
+      "check": "exit fullscreen: 已退出全屏",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "check": "exit fullscreen: 隐藏状态仍生效",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "gifts": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "off": "true",
+          "pressed": "true",
+          "label": "显示抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ],
+          "width": 118,
+          "opacity": 1,
+          "background": "rgba(18, 18, 22, 0.9)",
+          "labelOpacity": 1,
+          "labelWidth": 61
+        },
+        "fullscreen": null,
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "multi-tab: 新标签页默认显示礼物栏",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "block",
+          "rect": [
+            0,
+            912,
+            1264,
+            88
+          ]
+        },
+        "gifts": {
+          "display": "flex",
+          "rect": [
+            8,
+            904,
+            1110,
+            96
+          ]
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "off": "false",
+          "pressed": "false",
+          "label": "隐藏抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ],
+          "width": 30,
+          "opacity": 0.58,
+          "background": "rgba(0, 0, 0, 0)",
+          "labelOpacity": 0,
+          "labelWidth": 0
+        },
+        "fullscreen": null,
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "multi-tab: 新标签页按钮可见",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "false",
+        "pressed": "false",
+        "label": "隐藏抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          828,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "multi-tab: 新标签页可独立隐藏",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "gifts": {
+          "display": "none",
+          "rect": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "off": "true",
+          "pressed": "true",
+          "label": "显示抖音底部礼物栏",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ],
+          "width": 118,
+          "opacity": 1,
+          "background": "rgba(18, 18, 22, 0.9)",
+          "labelOpacity": 1,
+          "labelWidth": 61
+        },
+        "fullscreen": null,
+        "styleCount": 1,
+        "buttonCount": 1,
+        "inner": [
+          1600,
+          1000
+        ]
+      }
+    },
+    {
+      "check": "multi-tab: 原标签页状态不被新标签页改写",
+      "ok": true,
+      "detail": "off"
+    },
+    {
+      "check": "viewport: 缩小后按钮仍可见",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          596,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    },
+    {
+      "check": "viewport: 缩小时按钮不超出视口",
+      "ok": true,
+      "detail": {
+        "text": "礼物栏开关",
+        "off": "true",
+        "pressed": "true",
+        "label": "显示抖音底部礼物栏",
+        "parent": "BODY",
+        "visible": true,
+        "rect": [
+          14,
+          596,
+          30,
+          30
+        ],
+        "width": 30,
+        "opacity": 0.58,
+        "background": "rgba(0, 0, 0, 0)",
+        "labelOpacity": 0,
+        "labelWidth": 0
+      }
+    }
+  ]
+}

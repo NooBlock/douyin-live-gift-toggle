@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>抖音直播布局模拟 · 普通/网页全屏/原生全屏</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0d0d10; color: #fff; font: 14px/1.5 sans-serif; }
+    #app { display: flex; height: 100vh; overflow: hidden; }
+    #LeftBackgroundLayout { position: relative; width: 1264px; height: 100%; background: #201f24; overflow: hidden; }
+    #PlayerLayout { height: calc(100% - 88px); background: #151419; display: flex; align-items: center; justify-content: center; }
+    #PlayerLayout::before { content: "VIDEO / PLAYER"; color: #555; letter-spacing: .2em; }
+    #BottomLayout { height: 88px; display: flex; align-items: center; gap: 14px; padding: 0 14px; background: #2a2930; box-sizing: border-box; }
+    #BottomLayout .gift { width: 70px; height: 64px; border-radius: 10px; background: #3b3944; display: grid; place-items: center; font-size: 12px; }
+    #BottomLayout .entry { width: 64px; height: 80px; border-radius: 10px; background: #393741; display: grid; place-items: center; font-size: 12px; }
+    #giftPanelEntrance { background: #4a2030; }
+    #chat { flex: 1; padding: 18px; background: #17161b; color: #8d8b94; }
+    #controls { position: absolute; left: 14px; top: 14px; display: flex; gap: 8px; z-index: 10; }
+    #controls button { padding: 8px 12px; border: 1px solid #555; border-radius: 8px; background: #222; color: #fff; cursor: pointer; }
+    body.web-fullscreen #LeftBackgroundLayout { width: 100vw; }
+    body.web-fullscreen #chat { display: none; }
+    body.web-fullscreen #controls { display: none; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div id="LeftBackgroundLayout">
+      <div id="PlayerLayout"></div>
+      <div id="BottomLayout">
+        <div class="gift" data-e2e="gifts-container">礼物图标</div>
+        <div class="gift">礼物 2</div>
+        <div class="entry" id="giftPanelEntrance">礼物</div>
+        <div class="entry" data-e2e="recharge-btn">充值</div>
+        <div class="entry" id="game-entry">游戏</div>
+      </div>
+      <div id="controls">
+        <button id="web-toggle" type="button">网页全屏</button>
+        <button id="native-toggle" type="button">原生全屏</button>
+      </div>
+    </div>
+    <aside id="chat">聊天区</aside>
+  </div>
+  <script>
+    document.getElementById('web-toggle').addEventListener('click', () => {
+      document.body.classList.toggle('web-fullscreen');
+    });
+    document.getElementById('native-toggle').addEventListener('click', () => {
+      const stage = document.getElementById('LeftBackgroundLayout');
+      if (document.fullscreenElement) document.exitFullscreen();
+      else stage.requestFullscreen();
+    });
+  </script>
+</body>
+</html>

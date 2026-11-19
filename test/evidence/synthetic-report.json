@@ -1,0 +1,258 @@
+{
+  "passed": 10,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "普通观看：按钮可见且礼物栏显示",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "flex",
+          "h": 88
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "普通观看：点击后礼物栏隐藏",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "h": 0
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "网页全屏：布局切换后按钮仍可见",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "h": 0
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": "web-fullscreen"
+      }
+    },
+    {
+      "check": "网页全屏：隐藏状态继续生效",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "h": 0
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": "web-fullscreen"
+      }
+    },
+    {
+      "check": "退出网页全屏：礼物栏恢复",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "flex",
+          "h": 88
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "原生全屏：全屏元素为播放器容器",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "flex",
+          "h": 88
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "LeftBackgroundLayout",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": {
+          "tag": "DIV",
+          "id": "LeftBackgroundLayout"
+        },
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "原生全屏：按钮已挂到全屏元素内",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "flex",
+          "h": 88
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "LeftBackgroundLayout",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": {
+          "tag": "DIV",
+          "id": "LeftBackgroundLayout"
+        },
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "原生全屏：按钮仍可见",
+      "ok": true,
+      "detail": {
+        "flag": "on",
+        "bar": {
+          "display": "flex",
+          "h": 88
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "LeftBackgroundLayout",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            30,
+            30
+          ]
+        },
+        "fullscreen": {
+          "tag": "DIV",
+          "id": "LeftBackgroundLayout"
+        },
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "原生全屏：切换后礼物栏隐藏",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "h": 0
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "LeftBackgroundLayout",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ]
+        },
+        "fullscreen": {
+          "tag": "DIV",
+          "id": "LeftBackgroundLayout"
+        },
+        "bodyClass": ""
+      }
+    },
+    {
+      "check": "退出原生全屏：按钮回到 body",
+      "ok": true,
+      "detail": {
+        "flag": "off",
+        "bar": {
+          "display": "none",
+          "h": 0
+        },
+        "button": {
+          "text": "礼物栏开关",
+          "parent": "BODY",
+          "visible": true,
+          "rect": [
+            14,
+            828,
+            118,
+            30
+          ]
+        },
+        "fullscreen": null,
+        "bodyClass": ""
+      }
+    }
+  ]
+}
