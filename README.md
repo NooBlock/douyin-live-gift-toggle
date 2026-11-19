@@ -4,6 +4,8 @@
 
 **Greasy Fork 已发布：** [抖音直播礼物栏一键隐藏](https://greasyfork.org/zh-CN/scripts/606215) · [English listing](https://greasyfork.org/en/scripts/606215) · 版本 `1.1.2` · 许可证 MIT
 
+**GitHub：** <https://github.com/NooBlock/douyin-live-gift-toggle>
+
 ## 文件
 
 | 文件 | 说明 |
